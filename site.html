@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Покупка авиабилетов</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header>
+  <nav>
+   <ul>
+    <li><a href="#">Главная</a></li>
+    <li><a href="#">О нас</a></li>
+    <li><a href="#">Контакты</a></li>
+   </ul>
+  </nav>
+ </header>
+
+ <main>
+  <section class="search">
+   <h1>Покупка авиабилетов</h1>
+   <form action="#" method="get">
+    <label for="from">Откуда:</label>
+    <input type="text" id="from" name="from">
+
+    <label for="to">Куда:</label>
+    <input type="text" id="to" name="to">
+
+    <label for="date">Дата:</label>
+    <input type="date" id="date" name="date">
+
+    <button type="submit">Найти билеты</button>
+   </form>
+  </section>
+
+  <section class="results">
+   <h2>Результаты поиска</h2>
+   <ul>
+    <li>
+     <div class="flight-info">
+      <span class="time">12:00 - 15:00</span>
+      <span class="from">Москва</span>
+      <span class="to">Санкт-Петербург</span>
+      <span class="price">5 000 руб.</span>
+     </div>
+     <button>Купить</button>
+    </li>
+    <li>
+     <div class="flight-info">
+      <span class="time">16:00 - 19:00</span>
+      <span class="from">Москва</span>
+      <span class="to">Казань</span>
+      <span class="price">7 000 руб.</span>
+     </div>
+     <button>Купить</button>
+    </li>
+    <li>
+     <div class="flight-info">
+      <span class="time">10:00 - 13:00</span>
+      <span class="from">Санкт-Петербург</span>
+      <span class="to">Москва</span>
+      <span class="price">4 000 руб.</span>
+     </div>
+     <button>Купить</button>
+    </li>
+   </ul>
+  </section>
+ </main>
+
+ <footer>
+  <p>© 2021 Покупка авиабилетов. Все права защищены.</p>
+ </footer>
+</body>
+</html>
